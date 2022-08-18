@@ -10,13 +10,13 @@ class Program
         Console.Write("[");
         for (int i = 0; i < array.Length; i++)
         {
-            if (i == array.Length - 1) 
+            if (i == array.Length - 1)
             {
-                Console.Write(array[i]+"");
+                Console.Write(array[i] + "");
             }
-            else 
+            else
             {
-                Console.Write(array[i]+", ");  
+                Console.Write(array[i] + ", ");
             }
         }
         Console.Write("]");
